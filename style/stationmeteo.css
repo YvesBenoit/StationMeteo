@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-family: 'Big Shoulders Text';
+}
+
+
+nav ul {
+    display: flex;
+    direction: column;
+    color: steelblue;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Roboto;
+}
+
+section>div>ul {
+    list-style: none;
+    text-align: center;
+}
+
+.strong {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+table {
+    border: 1px medium solid #000000;
+    border-collapse: collapse;
+    font-family: Roboto;
+}
+
+th {
+    font-weight: bold;
+}
+
+th, td {
+    border: thin solid #6495ed;
+    padding: 2px 4px;
+}
+
+@media screen and (max-width: 500px) {
+    /* // Ici mes rules specifiques pour affichage sur ecran
+    // dont la taille est inferieure a 500px. */
+    nav ul {
+        direction: row;
+        background-color: pink;
+        }
+    }
